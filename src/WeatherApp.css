@@ -1,0 +1,72 @@
+.weatherApp {
+    padding-top: 200px;
+}
+.weatherApp .weatherQuery input {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #bbfffb;
+    color: black;
+    position: fixed;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px;
+    border: 0px;
+    outline: 0px;
+}
+.weatherApp .weatherInformation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.weatherApp .weatherInformation .cityName div {
+    font-size: 32px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+.weatherApp .weatherInformation .cityName div span {
+    font-weight: 300;
+}
+.weatherApp .weatherInformation .temperature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.weatherApp .weatherInformation .temperature div {
+    font-size: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-width: 100px;
+    margin: 1px;
+}
+.weatherApp .weatherInformation .temperature div span {
+    display: block;
+    font-size: 26px;
+}
+.weatherApp .state {
+    text-align: center;
+    margin: 60px 0;
+    font-weight: bold;
+}
