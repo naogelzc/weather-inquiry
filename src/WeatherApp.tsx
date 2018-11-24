@@ -33,7 +33,7 @@ class WeatherApp extends React.Component<{}, IweatherPageProps> {
 
 		query = city;
 		
-		fetch(`https://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&appid=dd04ed7701a7318d749d5a96f922aeee`)
+		fetch(`http://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&appid=dd04ed7701a7318d749d5a96f922aeee`)
 			.then( 
 				function(response) {
 					return response;
